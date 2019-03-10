@@ -1,0 +1,178 @@
+* {
+    font-style: normal;
+    margin: 0;
+}
+body {
+    margin: 0mm 0mm 0mm 0mm; 
+}
+/*------------------HOJA DE VIDA---------------------------------*/
+.encabezado {
+    background: #519c9ccf;
+    margin: 0;
+    color: #fff;
+    height: 16%;
+}
+.encabezado img {
+    margin-top: 2%;
+    margin-left: 43%;
+}
+.encabezado h4{
+    background: #519c9ccf;
+    padding: 5px;
+}
+.tabla-afiliado {
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabla-titulo {
+    background: #dddddd;
+    padding: 15px 24px;
+    width: 30%;
+    text-transform: uppercase;
+    border-right: 2px solid #26a69a;
+}
+.tabla-titulo img {
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.tabla-cuerpo {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 10px 20px;
+}
+.observaciones {
+    height: 8%;
+}
+/*------------------PLAN---------------------------------*/
+.tituloPlan {
+    color: #fff;
+    background: #26a69a;
+    padding: 20px;
+    text-align: center;
+}
+.FondoPlan {
+    width: 50%;
+    height: 50%;
+    z-index: -5;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+    margin-left: 25%;
+}
+.listaPlan {
+    padding: 10px;
+    margin-top: 15%;
+    list-style: none;
+    margin-left: 1%;
+    font-size: 40px;
+}
+.itemPlan {
+    padding-bottom: 15px;
+}
+.contenedor1 {
+    width: 500%;
+    padding-bottom: 20px;
+}
+.contenedor2 { 
+    width: 245%;
+    padding-bottom: 20px;
+    margin-top: -20%;
+    margin-left: 52%;
+}
+.valorPlan {
+    padding-left: 60%;
+}
+/*------------------carnet---------------------------------*/
+
+.cuerpo {
+    position: absolute;
+    height: 48%;
+    width: 18%;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+}
+.titulo {
+    position: relative;
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+.foto {
+    position: relative;
+    height: 20%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    box-shadow: 0.5;
+    border-radius: 5px ;
+    border: 2px solid #1e5a55;
+}
+.informacion {
+    position: relative;
+    width: 100%;
+    background: #26a69a;
+    padding: 3%;
+    margin-top: 2%;
+    font-size: 15px;
+    border-bottom: 5px solid #1e5a55;
+}
+.logo {
+    position: relative;    width: 25%;
+    height: 500%;
+    display: block;
+    float: left;
+    z-index: 5;
+    padding: 2%;
+    margin-top: -1%;
+}
+.cuerpo2 {
+    position: relative;
+    height: 48%;
+    width: 18%;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-left: 19%;
+}
+.cuerpo2 .tabla-carnet {
+    position: absolute;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 5% 8%;
+
+}
+.tdTabla {
+    font-size: 13px;
+    border-left:  1px solid #000;
+    padding-bottom: 50px;
+
+}
+.pie-pagina {
+    font-size: 8px;
+    margin-bottom:  -15%
+}
+
+/*****************************tabla-mantenimiento***************/
+.tabla-mantenimiento{
+    border-collapse: collapse;
+    width: 100%;
+    height: 5%;
+}
+.tabla-titulo-mantenimiento{
+    background: #dddddd;    
+    text-transform: uppercase;
+    border-bottom:  2px solid #26a69a;  
+}
+/*****************************tabla-asistencia*******************/
+.tabla-asistencia{
+    border-collapse: collapse;
+    width: 100%;
+    height: 5%;
+
+}
+.tabla-titulo-asistencia{
+    background: #dddddd;    
+    text-transform: uppercase;
+    height: 30%;
+    
+}

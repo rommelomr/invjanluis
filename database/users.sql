@@ -1,0 +1,1 @@
+INSERT INTO `users`(`name`, `email`, `rol`, `password`, `estado`) VALUES ('romm', 'rommelmontoya97@gmail.com', 'r', '$2y$10$M/rx0pFFvSqwRjJKpbaOaODA/MoajIG8pxX9VAu0w8VufOJ4D06gm','a');
